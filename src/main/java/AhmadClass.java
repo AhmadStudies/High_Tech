@@ -2,6 +2,11 @@ public class AhmadClass {
     String name;
     String surname;
 
+    public AhmadClass(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
+    }
+
     public String getName() {
         return name;
     }
